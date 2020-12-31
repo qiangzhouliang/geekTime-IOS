@@ -1,0 +1,65 @@
+PODS:
+  - DKPhotoGallery (0.0.17):
+    - DKPhotoGallery/Core (= 0.0.17)
+    - DKPhotoGallery/Model (= 0.0.17)
+    - DKPhotoGallery/Preview (= 0.0.17)
+    - DKPhotoGallery/Resource (= 0.0.17)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - R.swift (5.3.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+  - SnapKit (5.0.1)
+  - SwiftyGif (5.3.0)
+
+DEPENDENCIES:
+  - DKPhotoGallery
+  - Kingfisher
+  - R.swift
+  - SnapKit
+  - SwiftyGif
+
+SPEC REPOS:
+  trunk:
+    - DKPhotoGallery
+    - Kingfisher
+    - R.swift
+    - R.swift.Library
+    - SDWebImage
+    - SnapKit
+    - SwiftyGif
+
+SPEC CHECKSUMS:
+  DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  R.swift: 4170fb7161c67be3bc1a847040b79367d69c419f
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
+
+PODFILE CHECKSUM: 8d3b1d52622115edc6a0816ab25c3a90ce2aa702
+
+COCOAPODS: 1.10.0
